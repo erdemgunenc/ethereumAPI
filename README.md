@@ -41,6 +41,8 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+Then visit http://localhost:3000/api
+
 
 ## Running the app on the Docker
 ```bash
