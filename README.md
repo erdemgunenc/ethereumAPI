@@ -46,12 +46,14 @@ $ npm run start:prod
 ```bash
 After copying .env and docker-compose.yml to the root of the working directory;
 
-# compose
-$ sudo docker compose up -d
+# Build image
+$ docker build . -t ethereumAPI
 
-# to check
-$ sudo docker ps
+# Check the image
+$ sudo docker images
 
+# Run the image
+$ docker run -p 3000:3000 -d ethereumAPI
 ```
 
 ## Swagger Documentation
